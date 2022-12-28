@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<!--All styling and script for this HTML document are contatined in the linked css_ctpp.css & javascript_ctpp.js files-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Central Texas Poverty Patterns</title>
+
+<!--All links located here, always refrence the ArcGIS-API first followed by the external files-->
+    <link rel="stylesheet" href="https://js.arcgis.com/4.21/esri/themes/light/main.css"/>
+    <link rel="stylesheet" type="text/css" href="css/external_ctpp.css"/>
+    <script src="https://js.arcgis.com/4.21/"></script>
+    <script type=text/javascript src="js/external_ctpp.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+  <header>
+    <div id="topContainer">
+      <div id="branding">
+        <h1><span class="highlight">Central Texas Poverty Patterns</span></h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="about_CTPP.html">About Us</a></li>
+          <li><a href="Resources_ctpp.html">Resources</a></li>
+          <li><a href="data_ctpp.html">data</a></li>
+          <li class="current"><a href="index.html">Reset</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+    <!--This container is where the mapView is passed into from the attached external javascript-->
+    <div id="viewDiv"></div>
+    <div id="legend"></div>
+    <script>
+      alert("Welcome to Central Texas Poverty Patterns. This map allows you to view different potential patterns in the geographic distribution of poverty within the Austin Travis County Metropolitan Statistical Area. Use the swipe tool to compare the estimated poverty rate per census tract (shown on the left of the map) to the upper and lower estimates within the margin of error (shown on the right). Use the layer select tool on the right to select which layers are visible. For more in-depth instructions, click on the Resources link on the top menu.");
+    </script>
+</body>
+<footer>
+    <div id="copyright">
+      <script>
+      /* This line of code fetches today's date and stores it as the variable
+      named "today".*/
+      var today = new Date();
+      /* This line of code pulls out the year from "today" and saves it as the
+      variable named "year"*/
+      var year = today.getFullYear();
+      /* This line of code displays the word "Copyright", its symbol, and the
+      current year.*/
+      document.writeln("Copyright &copy; " + year);
+      </script>
+    </div>
+  </footer>
+</html>

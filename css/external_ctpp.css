@@ -1,0 +1,198 @@
+html,
+body,
+#viewDiv{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+  /* Global */
+  .container{
+    width: 100%;
+    height: 100%;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+
+  .button_A{
+    height:38px;
+    background:#5c385f;
+    border:0;
+    padding-left: 20px;
+    padding-right: 20px;
+    color:#ffffff;
+  }
+
+  /* Header */
+  header{
+    background:#DBE0B8;
+    color:#78afdd;
+    padding-top:30px;
+    min-height:70px;
+  }
+  
+  header a{
+    color:#E7A581;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:16px;
+  }
+  
+  header li{
+    float:left;
+    display:inline;
+    padding: 0 20px 0 20px;
+  }
+  
+  header #branding{
+    float: left;
+  }
+  
+  header #branding h1{
+    margin:0;
+    left: 0px;
+  }
+  
+  header nav{
+    float:right;
+    margin-top:10px;
+  }
+  
+  header .highlight, header .current a{
+    color:#78afdd;
+    font-weight:bold;
+  }
+  
+  header a:hover{
+    color:#cccccc;
+    font-weight:bold;
+  }
+
+#copyright {
+    position: fixed;
+    z-index: 99999;
+    padding-top: 20px;
+    width: 1000px;
+    text-align: center;
+    bottom: 20px;
+}
+
+.btn {
+  background-color: DodgerBlue;
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/* Darker background on mouse-over */
+.btn:hover {
+  background-color: RoyalBlue;
+}
+
+/*about us*/
+
+#boxes{
+  background-color: #FFFDE4;
+  position: relative;
+  overflow: auto;
+  margin: 0px;
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width:30%;
+  padding:10px;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+#boxes .box img{
+  width:90px;
+  
+}
+
+/*Resources*/
+
+#copyrightR {
+  color:#E7A581;
+  background:#DBE0B8;
+  padding-top: 20px;
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  padding-bottom: 0px;
+}
+
+#main-col {
+  color:#35424a;
+  background:#fffde4;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  overflow: clip;
+
+}
+
+#resPage {
+  color:#35424a;
+  background:#fffde4;
+  font-family: 'Times New Roman', Times, serif;
+  line-height: 2;
+  text-align: left;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  z-index: 10;
+  margin-top: -20px;
+  margin-bottom: -20px;
+  min-height: 100vh;
+  }
+
+  #resPage li{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
+
+  }
+
+.page-title {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr {
+  width: 225px;
+	border: 0;
+	border-top: 1px solid #ffffff
+}
